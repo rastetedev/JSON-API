@@ -26,8 +26,8 @@ class ArticleFactory extends Factory
             'title' => fake()->sentence(4),
             'slug' => fake()->slug(),
             'content' => fake()->paragraphs(3, true),
-            'category_id' => Category::factory(),
-            'user_id' => User::factory(),
+            /* 'category_id' => Category::factory(),
+            'user_id' => User::factory(), */
         ];
     }
 }
